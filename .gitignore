@@ -27,6 +27,7 @@ hs_err_pid*
 *.ipr
 .nbattrs
 build/
+build_temp/
 dist/
 
 # System
@@ -35,4 +36,5 @@ Thumbs.db
 
 # Web
 WEB-INF/classes/
+!WEB-INF/classes/**/*.java
 work/
