@@ -199,7 +199,7 @@
                                                                         <%= trip.getCreate() %>
                                                                     </span>
                                                                     <!-- Edit Trip -->
-                                                                    <a href="ActivitiesController?action=edit&id=<%= trip.getItinerary_ID() %>"
+                                                                    <a href="ActivitiesController?action=edit&id=<%= trip.getItinerary_ID() %>&source=dashboard"
                                                                         class="edit-btn"
                                                                         style="text-decoration:none; font-size:1.2rem; line-height:1;"
                                                                         title="Edit Trip">
