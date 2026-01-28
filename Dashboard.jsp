@@ -206,7 +206,7 @@
                                                                         &#9998; <!-- Pencil icon -->
                                                                     </a>
                                                                     <!-- Delete Trip -->
-                                                                    <a href="ActivitiesController?action=delete&id=<%= trip.getItinerary_ID() %>"
+                                                                    <a href="ActivitiesController?action=delete&id=<%= trip.getItinerary_ID() %>&source=dashboard"
                                                                         onclick="return confirm('Are you sure you want to delete this trip?');"
                                                                         class="delete-btn"
                                                                         style="text-decoration:none; font-size:1.2rem; line-height:1;"
